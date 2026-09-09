@@ -1,0 +1,121 @@
+question,ticker,expected_section,expected_decline,passed,has_citations,section_match,declined_correctly,cited_sections,latency_s,answer
+What are Apple's main risk factors?,AAPL,Item 1A,False,True,True,True,False,Item 1A. Risk Factors|Item 1A. Risk Factors|Item 1A. Risk Factors|Item 1A. Risk Factors|Item 1A. Risk Factors,11.2,"**Apple’s main risk factors (as disclosed in the 2025 Form 10‑K):**
+
+- **Competitive pressure:** Failure to compete successfully could materially harm the business, reputation, results of operations, financial condition, and stock price【1】.  
+- **Business interruptions & supply‑chain dependence:** Interruptions can require long recovery times, large expenditures, and loss of sales; reliance on single or limited sources for critical components heightens this risk【2】.  
+- **Supply shortages & price increases:** Significant risks of component shortages and cost escalations can adversely affect the business and financial results【3】.  
+- **Design and manufacturing defects:** Defects in products or services could damage the company’s reputation and business performance【3】.  
+- **Cyber‑security threats:** Because of its high profile and the value of confidential data it handles, Apple faces a greater risk of malicious attacks aimed at accessing sensitive information【4】.  
+- **Legal, regulatory, and litigation exposure:** Investigations, litigation, or changes in laws/regulations—especially those related to privacy and security—can harm reputation, reduce demand, cause lost sales, and lower profit margins【5】."
+What supply chain risks does Apple disclose?,AAPL,Item 1A,False,True,True,True,False,Item 1A. Risk Factors|Item 1A. Risk Factors|Item 1A. Risk Factors,1.0,"Apple highlights several supply‑chain‑related risks in its 2025 Form 10‑K:
+
+- **Supply shortages and price volatility** – The company may face significant shortages of key components and price increases that could materially harm its business, results, financial condition and stock price【1】.  
+- **Dependence on single or limited sources** – Apple relies on a small number of suppliers for many critical components; any interruption at those sources could exacerbate negative impacts, require costly recovery efforts, and lead to lost sales【4】.  
+- **Insufficient insurance coverage** – While Apple maintains some insurance, it may not fully cover losses from a supply‑chain disruption【4】.  
+- **Economic and credit risks affecting partners** – Adverse global or regional economic conditions can destabilize suppliers, contract manufacturers, logistics providers, distributors, and other channel partners, potentially causing financial instability, credit shortages, insolvency, and reduced liquidity that can affect Apple’s operations【5】."
+What does Apple describe as its main products?,AAPL,Item 1,False,False,False,False,False,,0.5,I don't have this information in the provided documents.
+How did Apple's revenue change in the most recent fiscal year?,AAPL,Item 7,False,False,True,False,False,Item 8. Financial Statements and Supplementary Data,1.5,"- Apple’s total net sales (revenue) for fiscal 2025 were **$416,161 million**【4】.  
+- In fiscal 2024, total net sales were **$391,035 million**【4】.  
+- This represents an **increase of $25,126 million** year‑over‑year."
+What cybersecurity disclosures does Apple provide?,AAPL,Item 1C,False,False,True,False,False,Item 1A. Risk Factors|Item 1A. Risk Factors|Item 1A. Risk Factors,1.3,"Apple’s 2025 Form 10‑K includes several cybersecurity‑related disclosures:
+
+- **Higher risk of targeted attacks** – Because of its high profile and the valuable confidential information it creates, stores and processes, Apple acknowledges it is at a relatively greater risk of malicious attacks aimed at obtaining confidential data【1】.  
+- **Potential vulnerabilities** – The company notes that its security controls may not protect against all threats and could be compromised by hacking, ransomware, employee error, malfeasance, system errors, weak password management, or social‑engineering tactics that trick employees or customers into revealing credentials【2】.  
+- **Protective measures** – Apple describes the safeguards it employs, including multifactor authentication, continuous monitoring for unusual activity, and the ability to freeze accounts under suspicious circumstances. These actions can sometimes delay or block customer orders or limit access to Apple’s products and services【2】.  
+- **Business impact of security issues** – Apple warns that investigations, litigation, or regulatory changes related to privacy and security could materially harm its reputation, competitive position, product demand, sales, and profit margins【4】.  
+
+These items constitute Apple’s primary cybersecurity disclosures in the filing."
+What are Microsoft's main risk factors?,MSFT,Item 1,False,True,True,True,False,Item 1|Item 1|Item 1|Item 1|Item 1,1.2,"**Microsoft’s main risk factors (as described in the provided filings)**  
+
+- **Legal, regulatory & litigation risks** – Failure to prevent, detect, or address design, manufacturing, or software defects could harm the business; liability provisions in license agreements may be challenged. [1]  
+- **Customer‑driven security and industry‑specific expectations** – Customers (especially in financial services, health care, government) may increase spending on protection or delay adoption of new products; specialized requirements can increase liability exposure. [2]  
+- **Strategic and competitive risks** – Intense competition across all product and service markets could adversely affect results of operations. [3]  
+- **Cybersecurity, data‑privacy & platform‑abuse risks** – Cyberattacks, security vulnerabilities, data‑corruption issues, and the cost of protective measures can reduce operating margins, damage reputation, trigger liability claims, and lead customers to switch to competitors. [4][5]"
+What are Microsoft's reportable operating segments?,MSFT,Item 1,False,False,True,False,False,Preamble|ITEM 7A. QUANTITATIVE AND QUALITAT,0.6,"Microsoft reports its business using three operating segments:
+
+- **Productivity and Business Processes**  
+- **Intelligent Cloud**  
+- **More Personal Computing**  
+
+These three segments are identified in the filing’s segment discussion. 【2】【3】"
+What drove Microsoft's revenue growth in the recent period?,MSFT,Item 7,False,False,True,False,False,ITEM 6. [R|ITEM 6. [R|ITEM 6. [R|ITEM 6. [R,1.4,"- **Microsoft Cloud growth** – Overall revenue rose $50.1 billion (18%) primarily because of strong expansion in the Microsoft Cloud, especially Azure and other cloud services [3].  
+- **Productivity & Business Processes** – Revenue in this segment grew 16% ($19.2 billion), driven by higher Microsoft 365 Commercial cloud revenue (up 17%) and growth in Microsoft 365 Consumer cloud (up 28%) [2].  
+- **LinkedIn** – Contributed to revenue growth with an $2.0 billion (11%) increase across all lines of business [5].  
+- **Dynamics 365** – Added $1.2 billion (15%) to revenue, with Dynamics 365 itself up 18% [5].  
+- **Other drivers** – Search advertising revenue rose 12% and LinkedIn revenue grew 11% (see highlights) [1].  
+
+Together, these cloud‑centric and business‑process segments were the primary forces behind Microsoft’s recent revenue growth."
+What legal proceedings does Microsoft discuss?,MSFT,Item 3,False,True,True,True,False,ITEM 3. LEGAL|Item 1,4.9,"- Microsoft directs readers to **Note 14 – Contingencies** in the Notes to the Financial Statements for details on the legal proceedings in which the company is involved【2】.  
+- The filing also notes that the company faces a variety of new, existing, and evolving legal and regulatory requirements that could affect its results of operations【3】."
+What risks does Amazon highlight about its shipping and logistics?,AMZN,Item 1A,False,True,True,True,False,Item 1A|Item 1A,2.5,"**Amazon’s shipping‑ and logistics‑related risks**
+
+- **Dependence on a limited set of carriers** – difficulty negotiating acceptable terms, carrier performance problems, or staffing limitations could hurt operations and the customer experience【1】.  
+- **Labor‑market and cost pressures** – labor constraints and related costs may negatively affect shipping and fulfillment【1】.  
+- **Disruptions from disasters or extreme events** – natural or human‑caused disasters, extreme weather (including climate‑change impacts), and public‑health crises can impede inbound inventory receipt and outbound order delivery【1】.  
+- **Geopolitical and security risks** – geopolitical events, security issues, labor or trade disputes, and changes in tariff policy may disrupt shipping operations【1】.  
+- **Regulatory and trade‑policy risks for international shipments** – local economic/political conditions, government regulation, trade‑protection measures (export duties, quotas, customs duties, tariffs), restrictions on import/export of certain products/technologies, nationalization, and limits on foreign ownership can affect Amazon’s international logistics【4】.  "
+What are Amazon's main risk factors?,AMZN,Item 1A,False,False,False,False,False,,6.0,"**Amazon’s main risk factors (as disclosed in the filing)**  
+
+- Fluctuations in foreign‑exchange rates and energy prices  
+- Changes in global economic conditions and geopolitical events  
+- Tariff and trade policy shifts  
+- Resource and supply‑chain volatility (e.g., memory‑chip shortages)  
+- Variability in customer demand and spending, including recession‑related concerns  
+- Inflation, interest‑rate movements, and regional labor‑market constraints  
+- The pace of growth of the internet, online commerce, cloud services and emerging technologies  
+- The amount and timing of Amazon’s investments in new business opportunities  
+- Mix of products vs. services sold and the mix of net sales derived from each  
+- Tax obligations (income or other taxes)  
+- Competitive pressures and management of growth  
+- Potential fluctuations in operating results and international expansion challenges  
+- Outcomes of claims, litigation, government investigations, and other proceedings  
+- Fulfillment‑related issues  
+
+These factors are enumerated in the risk‑factor discussion of the filing【3†L1-L9】 and reiterated in the guidance section【2†L1-L9】."
+What is Amazon's main business?,AMZN,Item 1,False,True,True,True,False,Item 1|Item 8,2.2,"- Amazon’s business is organized into three operating segments – **North America, International, and Amazon Web Services (AWS)**, which it uses to evaluate performance and manage operations【1】.  
+- The company’s core activities focus on serving a broad set of customers—including **consumers, sellers, developers, enterprises, content creators, advertisers, and employees** – through:  
+  - **Online and physical retail stores** that emphasize selection, price, and convenience for consumers【3】.  
+  - **Programs for sellers** to list and fulfill products on its platforms【3】.  
+  - **AWS**, which provides on‑demand cloud technology services (compute, storage, databases, AI/ML, etc.) to developers and enterprises of all sizes【3】.  
+
+In short, Amazon’s main business is operating a customer‑centric e‑commerce platform and a cloud‑computing service (AWS) across its three primary segments."
+How do Apple and Amazon describe their supply chain risks?,,Item 1A,False,False,False,False,False,,20.9,"**Apple (AAPL)**  
+No findings were provided regarding how Apple describes its supply chain risks.  
+
+**Amazon (AMZN)**  
+No findings were provided regarding how Amazon describes its supply chain risks.  
+
+**Overall Comparison**  
+Because the source material contains no information for either Apple or Amazon on this topic, no similarities or differences can be identified."
+Compare the risk factors of Microsoft and Apple.,,Item 1,False,False,False,False,False,,18.7,"**Key Similarities and Differences**  
+The provided findings contain no risk‑factor information for either Apple or Microsoft, so no similarities or differences can be identified from the available data.  
+
+---  
+
+**Apple (AAPL)**  
+No findings are available regarding Apple’s risk factors in the supplied material.  
+
+---  
+
+**Microsoft (MSFT)**  
+No findings are available regarding Microsoft’s risk factors in the supplied material.  
+
+---  
+
+*Because the source material does not include any risk‑factor disclosures for either company, a substantive comparison cannot be made.*"
+What is Tesla's revenue recognition policy?,,,True,True,False,False,True,,3.6,I don't have this information in the provided documents.
+What is the current price of Bitcoin?,,,True,True,False,False,True,,3.7,I don't have this information in the provided documents.
+What liquidity risks does Goldman Sachs report?,,,True,True,False,False,True,,1.8,I don't have this information in the provided documents.
+What are Intel's main risk factors?,,,True,True,False,False,True,,0.8,I don't have this information in the provided documents.
+How might interest rate changes affect Apple?,AAPL,Item 7A,False,False,True,False,False,Item 8. Financial Statements and Supplementary Data,0.7,"- Changes in interest rates can impact Apple’s term debt and the value of its marketable securities.  
+- To mitigate this risk, Apple may employ interest‑rate swaps, options, or other derivative instruments, designating them as cash‑flow or fair‑value hedges. [3]"
+What are Amazon's principal risks related to international operations?,AMZN,Item 1A,False,True,True,True,False,Item 1A|Item 1A|Item 1A|Item 7|Item 1A,2.4,"**Amazon’s principal international‑operation risks**
+
+- **Local economic and political conditions** – fluctuations in the political climate or economic health of a country can affect sales and profitability. [1][2]  
+- **Government regulation and restrictive actions** – includes regulation of products/services, competition rules, trade protection measures (export duties, quotas, customs duties, tariffs), import/export restrictions, nationalization, and limits on foreign ownership. [1][4]  
+- **Currency and commodity volatility** – foreign‑exchange rate swings and energy‑price changes can impact results. [3]  
+- **Global economic and trade environment** – shifts in worldwide economic conditions, tariff and trade policies, and supply‑chain/resource volatility (e.g., memory‑chip shortages). [3]  
+- **Demand, inflation, interest‑rate and labor‑market pressures** – changes in customer spending, inflation, interest rates, and regional labor‑market constraints affect operations. [3]  
+- **Geopolitical and world‑event risks** – world events, geopolitical tensions, extreme weather, natural or human‑caused disasters, and security issues can disrupt logistics and fulfillment. [5]  
+- **Logistics and shipping dependencies** – reliance on a limited number of shipping companies and potential labor or trade disputes can hurt inventory receipt and order delivery. [5]  
+- **Data‑security and cyber‑risk** – loss of data or other security incidents could harm operations. [5]  "
