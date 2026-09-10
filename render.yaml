@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: findoc-ai
+    runtime: docker
+    repo: https://github.com/Aress07/saham-findoc
+    plan: free
+    region: oregon
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
