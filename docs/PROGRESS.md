@@ -45,5 +45,5 @@
 ## Phase 7 — Hardening & Deployment
 - [x] Step 18: Error handling & logging (`errors.py` FinDocError hierarchy; `logging_config.py` console+file; friendly errors in pipeline/generation/app; failures verified — missing key/DB, empty retrieval, LLM failure)
 - [x] Step 19: Packaging for deployment (`requirements.txt` pinned; `Dockerfile` python:3.12-slim; `entrypoint.sh` downloads filings + builds vector store when missing; `.streamlit/config.toml` headless+theme; `.dockerignore`). Verified: `docker build -t findoc-ai .` OK; container serves HTTP 200 + `/_stcore/health` 200, rebuilt 1271-chunk store from scratch. Also added `--tickers` arg to download script (default AAPL MSFT AMZN).)
-- [ ] Step 20: Deploy to Hugging Face Spaces / Render — DEFERRED to next morning (no HF token yet). Full project committed + pushed to GitHub `origin/main` (commit 2bc1b99, no secrets — scan clean). Decision pending: HF Spaces (sdk: docker) vs Render (render.yaml).
+- [ ] Step 20: Deploy — path chosen: **Render** (free). HF Spaces unavailable on free tier (2026: Streamlit Spaces are Docker-backed/paid). `render.yaml` blueprint pushed to GitHub (`e31071c`); awaiting user deploy via Render Blueprint UI + GROQ_API_KEY secret. Alt: `scripts/deploy_hf.py` kept if Pro later.
 - [ ] Step 21: Final documentation pass — DEFERRED with Step 20.
