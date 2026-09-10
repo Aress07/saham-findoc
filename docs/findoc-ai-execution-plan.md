@@ -76,7 +76,7 @@ Legend for complexity: 🟢 Low (15–30 min) · 🟡 Medium (30–90 min) · �
 
 ### Step 6: Embedding module
 **Build:**
-- `src/findoc/embeddings.py` — `get_embedding_function()` returning either `OpenAIEmbeddings` or a local `HuggingFaceEmbeddings` (e.g., `sentence-transformers/all-MiniLM-L6-v2`) based on `Config.embedding_provider`.
+- `src/findoc/embeddings.py` — `get_embedding_function()` returning a local ONNX `FastEmbedEmbeddings` (fastembed / `BAAI/bge-small-en-v1.5`, 384-dim) based on `Config.embedding_provider`.
 
 **Verification:** Function returns a working embedding object for both providers (test with a dummy `.env` value for each); embedding a short string returns a vector of expected dimensionality.
 **Dependencies:** Step 2.

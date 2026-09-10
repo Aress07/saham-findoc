@@ -6,6 +6,5 @@ __pycache__
 .pytest_cache
 .env
 logs/
-data/processed/
 data/eval/results_*.csv
 .streamlit/secrets.toml

@@ -4,7 +4,7 @@ __pycache__/
 venv/
 .env
 chroma_db/
-data/processed/
+!data/processed/chroma_db/
 .streamlit/secrets.toml
 *.egg-info/
 dist/
